@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Enlace a Google Fonts y CSS externo -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="Style.css">
     <title>Zoogreen - Tienda de Peces</title>
 </head>
@@ -12,26 +13,32 @@
     <header class="header">
 
         <div class="header__logo">
-            <h1>zoogreen Petshop</h1>
+            <h1>zoogreen<br>Petshop</h1>
         </div>
 
         <nav class="header__nav">
             <ul class="nav__list">
-                <li><a href="#" class="nav__link">Inicio</a></li>
-                <li><a href="#" class="nav__link">Accesorios y Alimentos</a></li>
-                <li><a href="#" class="nav__link">Alimentación especializada</a></li>
-                <li><a href="#" class="nav__link">Catálogo de Peces</a></li>
-                <li><a href="#" class="nav__link">Atención al Cliente</a></li>
-                <li><a href="#" class="nav__link">Promociones</a></li>
-                
-                <li><a href="#" class="nav__link nav__link--destacado">Contacto</a></li>
+                <li><a href="index.html" class="nav__link">Inicio</a></li>
+                <li><a href="pages/Accesorios.html" class="nav__link">Accesorios y Alimentos</a></li>
+                <li><a href="pages/Alimentacion.html" class="nav__link">Alimentación especializada</a></li>
+                <li><a href="pages/Catalogo.html" class="nav__link">Catálogo de Peces</a></li>
+                <li><a href="pages/AtencionCliente.html" class="nav__link">Atención al Cliente</a></li>
+                <li><a href="pages/Promociones.html" class="nav__link">Promociones</a></li>
+
+                <li><a href="pages/contacto.html" class="nav__link nav__link--destacado">Contacto</a></li>
             </ul>
-        </nav>
+    </nav>
+
+        <!-- hacer carrito boton fantasma -->
+        <div class="header__carrito">
+            <a href="#" class="carrito-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+        </div>
 
     </header>
 
-
-
+    
     <main>
         <section class="hero">
             <h2>Todo lo que necesitas para tus Peces</h2>
