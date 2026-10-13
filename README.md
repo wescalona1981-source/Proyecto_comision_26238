@@ -39,7 +39,6 @@ Sitio web simple para una tienda de mascotas, con una página principal, paginas
 
 - incorporar JavaScript para mejorar la funcionalidad de la pagina, sobre todo donde se incluyan formularios.
 - Completar el resto de las page.
-- Incluir los iconos de carrito, 
 - agregar los iconos de las redes sociales en el index, especificamentte footer.
 - Agregar baner con un video donde se mueva un pez Betta ccon fondo negro.
 Nota para el proffesor: me he estado aayudanddo con la IA,, especificcamente con CSS, en mi caso lo estoy haciendo con ayuda dde google notebook, tengo de fuente el material de clases, videos de youtube y los libros que nos haz recomendado.
